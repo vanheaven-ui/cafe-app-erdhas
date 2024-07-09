@@ -1,0 +1,34 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-field {
+  display: flex;
+}
+
+label {
+  flex: 1
+}
+
+input, select, textarea {
+  flex: 2;
+  padding: 6px;
+}
+
+.submit-button {
+  text-align: center;
+}
+
+.submit-button input {
+  width: 50%;
+  height: 32px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.submit-button input:hover {
+  opacity: 1;
+}
